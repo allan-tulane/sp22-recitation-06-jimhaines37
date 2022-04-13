@@ -6,8 +6,6 @@ def qsort(a, pivot_fn):
     if len(a) == 0:
       return a 
     else:
-      #lambda a: a[0]
-      #lambda a: random.choice(a)
       p = pivot_fn(a)
       l = list(filter(lambda x: x < p, a))
       r = list(filter(lambda x: x > p, a))
