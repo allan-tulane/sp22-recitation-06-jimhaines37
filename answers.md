@@ -6,15 +6,7 @@
 
 Place all written answers from `recitation-06.md` here for easier grading.
 
-Compare running times using compare-qsort between variants of Quicksort and the provided implementation of selection sort (ssort). Perform two different comparisons: a comparison between sorting methods using random permutations of the specified sizes, and a comparison using already sorted permutations. How do the running times compare to the asymptotic bounds? How does changing the type of input list change the relative performance of these algorithms? Note that you may have to modify the list sizes based on your system memory; compare at least 10 different list sizes. The print_results function in main.py gives a table of results, but feel free to use code from Lab 1 to plot the results as well.
-
-enter answers in answers.md
-
-1c)
-
-Python uses a sorting algorithm called Timsort, designed by Tim Peters. Compare the fastest of your sorting implementations to the Python sorting function sorted, conducting the tests in 3b above.
-
-enter answers in answers.md
+Perform two different comparisons: a comparison between sorting methods using random permutations of the specified sizes, and a comparison using already sorted permutations. How do the running times compare to the asymptotic bounds? How does changing the type of input list change the relative performance of these algorithms?
 
 - **1b.**
 
