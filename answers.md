@@ -16,10 +16,6 @@ Python uses a sorting algorithm called Timsort, designed by Tim Peters. Compare 
 
 enter answers in answers.md
 
-
-
-
-
 - **1b.**
 
 Sorted:
@@ -55,6 +51,9 @@ Random Order:
 | 900 |               4.298 |                5.096 |
 
 
+We can see that using a sorted list and a fixed pivot (the first value in the list) is very inefficient and takes up a lot of runtime as the input size increases.
+
+When the list is randomized or the pivot value is randomized we experience much better runtimes. My sample sizes are relatively small so it is not easy to see the trend on how they increase, but they are all comparable in terms of runtime and have much lower runtime than the fixed pivot sorted list.
 
 
 - **1c.**
@@ -93,4 +92,4 @@ Random Order:
 | 800 |               3.232 |                4.518 |      0.120 |
 | 900 |               3.792 |                4.640 |      0.102 |
 
-
+Here, we experience similar results to 1b. The fixed pivot sorted list gives by far the worst runtimes because it is so inefficient. The other qsort functions still produce similar runtimes that are much lower than the sorted fixed pivor list. Tim_sort however provides by far the best runtimes for both sorted and randomized list, so we know our version of qsort still has some ineffiencies.
