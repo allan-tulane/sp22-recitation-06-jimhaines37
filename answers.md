@@ -48,6 +48,11 @@ We can see that using a sorted list and a fixed pivot (the first value in the li
 When the list is randomized or the pivot value is randomized we experience much better runtimes. My sample sizes are relatively small so it is not easy to see the trend on how they increase, but they are all comparable in terms of runtime and have much lower runtime than the fixed pivot sorted list.
 
 
+
+
+
+
+
 - **1c.**
 
 Sorted:
