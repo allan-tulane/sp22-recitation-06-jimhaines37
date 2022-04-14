@@ -43,7 +43,7 @@ Random Order:
 | 900 |               4.298 |                5.096 |
 
 
-We can see that using a sorted list and a fixed pivot (the first value in the list) is very inefficient and takes up a lot of runtime as the input size increases.
+We can see that using a sorted list and a fixed pivot (the first value in the list) is very inefficient and takes up a lot of runtime as the input size increases. This is because selecting the first element of a sorted list is not the best way to split the list and is basically like doing one element at a time, which is not how we should use this algorithm. It is better to select an element that will split the list into 2 halves that are as equal as possible.
 
 When the list is randomized or the pivot value is randomized we experience much better runtimes. My sample sizes are relatively small so it is not easy to see the trend on how they increase, but they are all comparable in terms of runtime and have much lower runtime than the fixed pivot sorted list.
 
